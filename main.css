@@ -1,12 +1,37 @@
+.title-box {
+  text-align: center;
+}
+
 h1{
   color: rgb(3, 78, 198);
 }
+
+
 body{
   background:url('pat.jpg');
   font-family:'Comic Sans MS',sans-serif;
   color:white;
 }
+
+p{
+  font-family: 'Oswald', sans-serif;
+}
+
 img{
-width:60%; border:5px
+width:75%; border:5px
 dotted red;
-  }
+}
+
+
+.meme-info {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.price-table {
+  width: 50%;
+  margin: auto;}
+
+.audio-memes {
+text-align: center;
+}
