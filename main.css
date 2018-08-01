@@ -9,17 +9,19 @@ h1{
 
 body{
   background:url('pat.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center;
   font-family:'Comic Sans MS',sans-serif;
   color:white;
 }
 
-p{
-  font-family: 'Oswald', sans-serif;
-}
+
 
 img{
 width:75%; border:5px
-dotted red;
+dotted blue;
 }
 
 
@@ -29,9 +31,17 @@ dotted red;
 }
 
 .price-table {
-  width: 50%;
+  width: 20%;
   margin: auto;}
 
 .audio-memes {
 text-align: center;
+}
+
+.undert {
+  color: rgb(146, 160, 51);
+}
+
+.jumbotron {
+ background-color: rgb(209, 16, 16);
 }
