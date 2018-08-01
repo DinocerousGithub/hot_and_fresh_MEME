@@ -10,3 +10,12 @@ body {
     text-align: center;
     font-size:100px
   }
+
+.bottle {
+  text-align: center;
+
+}
+
+.bottle img {
+  width:50%;
+}

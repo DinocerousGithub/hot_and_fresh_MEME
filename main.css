@@ -20,8 +20,8 @@ body{
 
 
 img{
-width:75%; border:5px
-dotted blue;
+width:75%;
+border: 5px dotted blue;
 }
 
 
@@ -32,7 +32,13 @@ dotted blue;
 
 .price-table {
   width: 20%;
-  margin: auto;}
+  margin: auto;
+  border: 2px solid black;
+}
+
+th, td {
+  border: 2px solid black;
+}
 
 .audio-memes {
 text-align: center;
@@ -44,4 +50,8 @@ text-align: center;
 
 .jumbotron {
  background-color: rgb(209, 16, 16);
+}
+.meme-info{
+  text-align: center;
+  font-family: 'Comic Sans MS'
 }
