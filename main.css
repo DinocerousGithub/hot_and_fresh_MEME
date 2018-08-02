@@ -1,5 +1,6 @@
-.title-box {
+.jumbotron {
   text-align: center;
+ background-color: rgb(209, 16, 16);
 }
 
 h1{
@@ -48,9 +49,7 @@ text-align: center;
   color: rgb(146, 160, 51);
 }
 
-.jumbotron {
- background-color: rgb(209, 16, 16);
-}
+
 .meme-info{
   text-align: center;
   font-family: 'Comic Sans MS'
