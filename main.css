@@ -1,14 +1,5 @@
-.jumbotron {
-  text-align: center;
- background-color: rgb(209, 16, 16);
-}
-
-h1{
-  color: rgb(3, 78, 198);
-}
-
-
-body{
+/* Tag CSS */
+body {
   background:url('pat.jpg');
   background-repeat:no-repeat;
   background-attachment:fixed;
@@ -18,42 +9,65 @@ body{
   color:white;
 }
 
-
-
-img{
-width:75%;
-border: 5px dotted blue;
+h1 {
+  color: rgb(3, 78, 198);
 }
 
-
-.meme-info {
-  text-align: center;
-  font-family: sans-serif;
-}
-
-.price-table {
-  width: 20%;
-  margin: auto;
-  border: 2px solid black;
+img {
+  width:75%;
+  border: 5px dotted blue;
 }
 
 th, td {
   border: 2px solid black;
 }
 
+footer {
+  text-align: center;
+  background-color: rgba(0,0,0,.75);
+  padding: 2%;
+}
+
+/* ID CSS */
+
+/* Class CSS */
+.jumbotron {
+  text-align: center;
+  background-color: rgb(209, 16, 16);
+}
+
+.links {
+  text-align: center;
+  margin: 2%;
+}
+
+.meme-box {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
+.meme-info {
+  text-align: center;
+  background-color: rgba(0,0,0,.75);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Comic Sans MS'
+}
+
+.price-table {
+  width: 20%;
+  margin: 2% auto;
+  border: 2px solid black;
+}
+
+
 .audio-memes {
-text-align: center;
+  text-align: center;
+  margin: 2%;
 }
 
 .undert {
   color: rgb(146, 160, 51);
-}
-
-
-.meme-info{
-  text-align: center;
-  font-family: 'Comic Sans MS'
-}
-.alone{
-text-align: center;
 }

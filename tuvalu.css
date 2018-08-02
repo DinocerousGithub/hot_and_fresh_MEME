@@ -5,6 +5,11 @@ body {
   background-size:cover;
   }
 
+p {
+  font-size: 2em;
+  font-weight: 400;
+}
+
   h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -21,4 +26,20 @@ body {
 }
 .jumbotron{
   background color: rgb(17, 206, 216);
+}
+
+.purity-chart{
+  background-color: rgba(255,255,255,.75);
+  width: 50%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+th, td {
+  padding: 1%;
+}
+
+.info h3 {
+  font-size:120px;
+  text-align:center;
 }
